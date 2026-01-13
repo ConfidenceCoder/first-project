@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+}
+.btn{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 1rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.red {
+  background: linear-gradient(145deg, #ff3c6f, #ff7a18);   
+}
+
+.yellow {
+  background: linear-gradient(145deg, #f9d423, #ffb347);
+}
+
+.green {
+  background: linear-gradient(145deg, #00c6a7, #1e9600); 
+}
+
+.purple {
+  background: linear-gradient(145deg, #ff00cc, #333399);
+}
+.flash {
+  background-color: #ffffff !important;
+   background-image: none !important; 
+  box-shadow: 0 0 30px #434e4e;
+}
+
+.userflash {
+  background-image: none !important;
+  background-color: #242e33 !important;   /* soft ice blue */
+  box-shadow: 0 0 25px #4fc3f7;
+  transform: scale(0.95);
+}
+
